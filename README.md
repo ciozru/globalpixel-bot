@@ -1,4 +1,6 @@
 # GlobalPixel.xyz BasicBot
+[![Hits](https://hits.sh/github.com/ciozru/globalpixel-bot.svg?label=views&color=007ec6)](https://hits.sh/github.com/ciozru/globalpixel-bot/)
+
 This bot is a software that helps you easily place pixels on [GlobalPixel](https://globalpixel.xyz).The real owner of the bot is [ppfun2](https://github.com/portasynthinca3/ppfun2)
 
 **Installation**<br/>
