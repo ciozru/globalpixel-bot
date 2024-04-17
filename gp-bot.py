@@ -325,14 +325,14 @@ def main():
     # get the version on the server
     print(f'{Fore.YELLOW}GlobalPixel bot by portasynthinca3 edited by cioz version {Fore.GREEN}{VERSION}{Fore.YELLOW}' +
         f' released on {Fore.GREEN}{VERSION_DATE}{Fore.YELLOW}' + 
-        f'\nNew features in this version: \n{Fore.GREEN}{VERSION_FEATURES}{Fore.YELLOW}'
+        f'\nA Quick Note: \n{Fore.GREEN}{VERSION_FEATURES}{Fore.YELLOW}'
         f'\nChecking for updates{Style.RESET_ALL}')
     server_verdef = sess.get(VERDEF_URL).text
     if int(server_verdef.split('\n')[1]) > VERSION_NUM:
         # update
         server_ver = server_verdef.split('\n')[0]
         print(f'{Fore.YELLOW}There\'s a new version {Fore.GREEN}{server_ver}{Fore.YELLOW} on the server. Downloading{Style.RESET_ALL}')
-        with open('ppfun2.py', 'wb') as bot_file:
+        with open('gp-bot.py', 'wb') as bot_file:
             bot_file.write(sess.get(BOT_URL).content)
         print(f'{Fore.YELLOW}Please start the bot again{Style.RESET_ALL}')
         exit()
