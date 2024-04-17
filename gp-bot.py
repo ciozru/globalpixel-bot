@@ -11,8 +11,8 @@ import time, datetime, math, random
 import os.path as path, getpass
 
 # URLs of various files
-BOT_URL    = 'https://raw.githubusercontent.com/portasynthinca3/ppfun2/master/ppfun2.py'
-VERDEF_URL = 'https://raw.githubusercontent.com/portasynthinca3/ppfun2/master/verdef'
+BOT_URL    = 'https://raw.githubusercontent.com/ciozru/globalpixel-bot/master/gp-bot.py'
+VERDEF_URL = 'https://raw.githubusercontent.com/ciozru/globalpixel-bot/master/verdef'
 
 try:
     import requests
@@ -47,10 +47,10 @@ if len(not_inst_libs) > 0:
 me, thr, ws = {}, None, None
 
 # the version of the bot
-VERSION          = '1.1.18'
-VERSION_NUM      = 19
-VERSION_DATE     = 'Oct. 22, 2021'
-VERSION_FEATURES = '  - proper status indication (thanks to Rem-u)'
+VERSION          = '1.0.0'
+VERSION_NUM      = 1
+VERSION_DATE     = 'April 17, 2024'
+VERSION_FEATURES = ' - The real owner of the bot is not Cioz, she just turned it into a globalpixelxyz site.'
 
 # are we allowed to draw
 draw = True
